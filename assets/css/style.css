@@ -1,0 +1,129 @@
+/*  HOLA PROFE EN GENERAL POR LA RESOLUCION DE PANTALLA DE LA MAQUETA QUE ES DISTINTA A LA MÍA NO ME COMPLIQUÉ
+    CON LOS TAMAÑOS Y TRABAJÉ CONSIDERANDO QUE SE VIERA LO MÁS PARECIDO POSIBLE Y APLICANDO LO SOLICITADO,
+    LO ÚNICO QUE NO PUDE MEJORAR ES EL TAMAÑO DE LETRA DEL HEADER (IGUAL SE VE CHICA) ¡SALUDOS FRANCISCO! */
+
+body {
+  font-family: 'Raleway', sans-serif;
+
+}
+
+header {
+  color: white;
+  background-color: black;
+  height: 73px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.section1 {
+  background: url(../img/bg-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 727px;
+}
+
+.section2 {
+  height: 348px;
+  display: flex;
+  background: #000000;
+  align-items: center;
+  overflow: auto;
+}
+
+#texto {
+
+  text-align: left;
+  color: white;
+  width: 475px;
+  height: 197px;
+  margin-left: 300px;
+  float: left;
+}
+
+#iguparr {
+  background: url(../img/iguana-1.jpg);
+  background-size: 399px;
+  width: 399px;
+  height: 237px;
+  float: left;
+  margin-left: 300px;
+}
+
+.section3 {
+  text-align: center;
+  align-items: center;
+  background: #1E1A13 0% 0% no-repeat padding-box;
+  color: white;
+  height: 348px;
+  padding-top: 57px;
+  overflow: auto;
+}
+
+.section3 h1 {
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.section3 div {
+  margin-left: 80px;
+  margin-right: 80px;
+  display: inline-block;
+
+}
+
+.section3 h3 {
+  font: normal normal 300 25px/30px Raleway;
+  margin-top: 20px;
+}
+
+.section4 {
+  height: 348px;
+  align-items: center;
+  display: flex;
+  background-color: #000000;
+  overflow: auto;
+  align-content: center;
+}
+
+.section4 div {
+  margin: 10px;
+  display: inline-block;
+  width: 316px;
+  height: 202px;
+
+}
+
+#igu1 {
+  background: url(../img/iguana-2.jpg);
+  background-size: cover;
+  margin-left: 360px;
+}
+
+#igu2 {
+  background: url(../img/iguana-3.jpg);
+  background-size: cover;
+}
+
+#igu3 {
+  background: url(../img/iguana-4.jpg);
+  background-size: cover;
+}
+
+footer {
+  color: white;
+  background-color: #1E1A13;
+  height: 102px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+footer p,
+footer a {
+  font: normal normal 300 20px Raleway;
+  text-decoration: none;
+  color: white;
+}
